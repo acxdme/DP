@@ -5,6 +5,8 @@
  Algo :  Calculate the sum of the array if the total sum turns out to be odd then return false
          else call subset sum (arr,N,sum/2);
          the value returned by the helper function is then returned as answer.
+         
+NOTE : Equal sum partition problem uses subset sum approach as subroutine.
 */
 
 class Solution{
